@@ -85,7 +85,7 @@ pipeline {
             agent { label 'agent2' }
             steps {
                 script {
-                    docker.withRegistry('', 'DockerHub_yu3papa') {
+                    docker.withRegistry('', 'DockerHub_stylist40@empal.com') {
                         oDockImage.push()
                     }
                 }
